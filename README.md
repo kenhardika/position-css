@@ -9,4 +9,3 @@ Use position absolute and relative to create "love" shape
 
 create smooth border on the two circles with border radius, then with position relative within the parents put the two circles together, then rotate the shape.
 Then, use position absolute on rectangle, rotate it then adjust it into the right position.
-

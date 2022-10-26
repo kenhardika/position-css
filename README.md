@@ -2,10 +2,10 @@
 Position CSS 
 basic task for MEA 
 
-Use position absolute and relative to create "love" shape 
+Position: Relative pada shape-layer
+digunakan karena shape layer adalah layer parent dari circle dan box, jadi kita menempatkan element pada posisi yang sama seperti position static, tetapi karena menggunakan position relative kita juga bisa mengatur posisi element dengan menggunakan left, right, top & bottom.
 
-1. Create two circles
-2. Create one rectangle 
+Position: Absolute pada circle one, circle two, dan box.
+digunakan karena kita ingin menempatkan element pada posisi/titik spesifik yang tidak dipengaruhi oleh apapun contohnya tidak dipengaruhi oleh urutan element, parent element, scroll behaviour dll dan hanya diatur oleh posisi left, right, top & bottom-nya untuk memudahkan shape circle & box menyatu dan berdekatan.
 
-create smooth border on the two circles with border radius, then with position relative within the parents put the two circles together, then rotate the shape.
-Then, use position absolute on rectangle, rotate it then adjust it into the right position.
+dalam task ini juga digunakan property rotate, untuk merotasi shape sesuai berdasarkan keinginan dalam satuan degrees (deg).

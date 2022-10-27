@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+:root{
+    --colorPink: #f52851;
+}
+
+body{
+    background-color: cyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.shape-layer{
+    position: relative;
+}
+
+.circle, .box{
+    background-color: var(--colorPink);
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+}
+.circle.one{
+    position: absolute;
+    left: -28px;
+    top: -63px;
+    background-color: var(--colorPink);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    rotate: 45deg;
+}
+.circle.two{
+    position: absolute;
+    right: -28px;
+    top: -63px;
+    background-color: var(--colorPink);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    rotate: -45deg;
+}
+
+.box{
+    position: absolute;
+    top: 10px;
+    left: -99px;
+    right: 0px;
+    height: 200px;
+    width: 199px;
+    rotate: 45deg;
+}
+
